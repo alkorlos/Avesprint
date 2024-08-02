@@ -1,0 +1,184 @@
+.section-challenge {
+	grid-column: content;
+	padding-block-end: 58px;
+
+	scroll-margin-block-start: calc(90px + 20px);
+
+	view-timeline-name: var(--is);
+	@media (--desktop-1200) {
+		padding-block-end: 40px;
+	}
+	@media (--tablet) {
+		padding-block-end: 120px;
+		scroll-margin-block-start: calc(60px + 10px);
+	}
+}
+
+.challenge__title {
+	max-inline-size: 600px;
+	margin-block: 0 39px;
+
+	color: var(--color-text-primary);
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 48px;
+	text-wrap: balance;
+	@media (--tablet) {
+		max-inline-size: none;
+		margin-block-end: 47px;
+
+		font-size: 30px;
+		line-height: 40px;
+	}
+}
+
+.challenge-summary-detail {
+	display: grid;
+	grid-template-columns: min(56%, 600px) 1fr;
+	column-gap: 60px;
+	min-block-size: 556px; /* Высота самого высокого контента в правой колонке */
+	@media (--desktop-1100) {
+		min-block-size: 616px;
+	}
+}
+
+.challenge-summary-detail--desktop {
+	@media (--tablet) {
+		display: none;
+	}
+}
+
+.challenge-summary-detail__summaries {
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+}
+
+.challenge-summary-detail__summary {
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	align-items: center;
+	column-gap: 93px;
+	margin-block: 0;
+	&::after {
+		content: "";
+
+		block-size: 1px;
+
+		background-color: var(--color-background-challenge-summary-detail-button-after);
+		opacity: 0;
+
+		transition: opacity 0.3s;
+	}
+	&:has(.challenge-summary-detail__button--active) {
+		&::after {
+			opacity: 1;
+		}
+	}
+}
+
+.challenge-summary-detail__button {
+	padding: 0;
+
+	color: var(--color-text-primary);
+	font-size: 24px;
+	font-family: inherit;
+	line-height: 1.5;
+	text-align: left;
+
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	opacity: 0.46;
+
+	transition: opacity 0.3s;
+}
+
+.challenge-summary-detail__button--active {
+	opacity: 1;
+}
+
+.challenge-summary-detail__details {
+	padding-block-start: 5px;
+}
+
+.challenge-summary-detail__detail {
+	&:not(.challenge-summary-detail__detail--open) {
+		display: none;
+	}
+	@media (prefers-reduced-motion: no-preference) {
+		transition: opacity 0.3s ease-in, display 0.3s allow-discrete;
+		&:not(.challenge-summary-detail__detail--open) {
+			transition: opacity 0s, display 0s allow-discrete;
+		}
+		@starting-style {
+			opacity: 0;
+		}
+	}
+}
+
+.challenge-summary-detail__image {
+	display: block;
+	max-inline-size: 100%;
+	block-size: auto;
+	margin-block-end: 78px;
+	@media (--tablet) {
+		margin-block-end: 16px;
+	}
+}
+
+.challenge-summary-detail__description {
+	margin-block: 0;
+
+	color: var(--color-text-primary);
+	font-size: 24px;
+	line-height: 1.5;
+	letter-spacing: 0.4px;
+}
+
+.challenge-details-wrapper--mobile {
+	display: none;
+	@media (--tablet) {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+}
+
+.challenge-details__title {
+	@media (--tablet) {
+		margin-block: 0;
+
+		color: var(--color-text-primary);
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 31px;
+	}
+}
+
+.challenge-details__title :global(br) {
+	@media (--tablet) {
+		display: none;
+	}
+}
+
+.challenge-details__image {
+	@media (--tablet) {
+		display: block;
+		max-inline-size: 100%;
+		block-size: auto;
+		margin-block-end: 16px;
+	}
+}
+
+.challenge-details__description {
+	@media (--tablet) {
+		margin-block: 0;
+
+		color: var(--color-text-primary);
+		font-size: 18px;
+		line-height: 1.5;
+
+		opacity: 0.6;
+	}
+}

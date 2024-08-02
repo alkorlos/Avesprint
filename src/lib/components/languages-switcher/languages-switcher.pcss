@@ -1,0 +1,17 @@
+.languages-switcher {
+	color: var(--color-text-interactable);
+	font-weight: 600;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	transition: color 0.3s;
+	&:hover {
+		@media (--hover-fine) {
+			color: var(--color-text-interactable--hover-secondary);
+		}
+	}
+	&:active {
+		color: var(--color-text-interactable--active);
+	}
+}

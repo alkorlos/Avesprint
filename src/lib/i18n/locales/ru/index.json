@@ -1,0 +1,176 @@
+{
+  "hero__caption": "От идеи до реализации за 2 недели",
+
+  "hero-slider__title--period": "От идеи до реализации за 2 недели",
+  "hero-slider__title--practical": "Прикладной подход к запуску продукта",
+  "hero-slider__title--prototype": "Интерактивный прототип нового поколения",
+  "hero-slider__title--products": "Запуск востребованного продукта",
+  "hero-slider__title--saving": "Экономия времени и ресурсов",
+  "hero-slider__title--result": "Ваш продукт будет работать!",
+
+  "hero__image": "Рука указывает на бумагу, другая рука держит лампочку, символизируя генерацию идей",
+
+  "hero__button": "Про Focus",
+  "hero__link": "К следующему блоку",
+
+
+  "challenge__title": "Focus лучше всего работает, если вам нужно за 2 недели...",
+
+  "challenge-details__title--launch": "Запустить проект",
+  "challenge-details__description--launch": "Запустить проект и проработать его от абстрактной идеи до разных вариантов реализации",
+  "challenge-summary-detail__image--launch": "Желтая обувь с шестеренками, символизирующая инновационный дизайн для проекта, объединяющего моду и технологии",
+
+  "challenge-details__title--hypotheses": "Протестировать <br> несколько гипотез",
+  "challenge-details__description--hypotheses": "Протестировать несколько продуктовых гипотез и получить обратную связь от реальных пользователей",
+  "challenge-summary-detail__image--hypotheses": "Планшет для бумаг с иконкой звезды, символизирующий проверку продуктовых гипотез для получения ощутимой обратной связи от реальных пользователей",
+
+  "challenge-details__title--stakeholders": "Вовлечь важных стейкхолдеров",
+  "challenge-details__description--stakeholders": "Синхронизировать видение команды и вовлечь важных стейкхолдеров в реализацию проекта",
+  "challenge-summary-detail__image--stakeholders": "Желтая фигура человека со стрелкой, направленной влево, символизирующая командную работу и участие заинтересованных сторон в выполнении проекта",
+
+  "challenge-details__title--sell": "«Продать» идею внутри",
+  "challenge-details__description--sell": "Проработать, упаковать и «продать» идею внутри",
+  "challenge-summary-detail__image--sell": "Открытая коробка с лампочкой внутри, символизирующая процесс разработки идей внутри компании",
+
+  "challenge-details__title--support": "Включить экспертизу <br> внешних экспертов",
+  "challenge-details__description--support": "Посмотреть на свою задачу извне и интегрировать экспертизу внешних экспертов в работу команды",
+  "challenge-summary-detail__image--support": "Сова в выпускной шапке с карандашом, символизирующая объективную экспертизу и внешние знания в командной работе",
+
+  "challenge-details__title--roadmap": "Получить концепцию <br> и прототип",
+  "challenge-details__description--roadmap": "Получить дизайн-концепцию и интерактивный прототип решения",
+  "challenge-summary-detail__image--roadmap": "Телефон с изображением человека и телефон со списком, демонстрирующие концепцию дизайна и интерактивный прототип продукта",
+
+
+  "trials__title": "Как устроен процесс Focus",
+  "trials__skip": "Пропустить",
+
+  "trials-gallery__week--1": "Неделя 1",
+  "trials-gallery__day--monday--full": "Понедельник",
+  "trials-gallery__day--monday--shortcut": "Пн",
+  "trials-gallery__day--tuesday--full": "Вторник",
+  "trials-gallery__day--tuesday--shortcut": "Вт",
+  "trials-gallery__day--wednesday--full": "Среда",
+  "trials-gallery__day--wednesday--shortcut": "Ср",
+  "trials-gallery__day--thursday--full": "Четверг",
+  "trials-gallery__day--thursday--shortcut": "Чт",
+  "trials-gallery__day--friday--full": "Пятница",
+  "trials-gallery__day--friday--shortcut": "Пт",
+  "trials-gallery__week--2": "Неделя 2",
+  "trials-gallery__day--tuesday-thursday--full": "Вторник — Четверг",
+  "trials-gallery__day--tuesday-thursday--shortcut": "Вт Ср Чт",
+
+  "trials-slider__title--idea": "Поиск идеи",
+  "trials-slider__item--idea--study": "Исследуем с внутренними и внешними экспертами предметную область проекта",
+  "trials-slider__item--idea--solutions": "Генерируем большое количество решений",
+  "trials-slider__item--idea--hypotheses": "Синхронизируем цель на 2 года, формируем и приоритезируем продуктовые гипотезы",
+  "trials-slider__image--idea": "Мужчина и женщина сотрудничают за компьютером, обсуждая идеи проекта с внутренними и внешними экспертами",
+  "trials-slider__title--storyboard": "Сториборд",
+  "trials-slider__item--storyboard--prototype": "Выбираем лучшие идеи и собираем из них единую концепцию прототипа для теста",
+  "trials-slider__item--storyboard--scripts": "Создаем путь и сценарии пользователя",
+  "trials-slider__item--storyboard--mockups": "Прорабатываем мокапы будущего прототипа",
+  "trials-slider__image--storyboard": "Два человека изучают заметки и флажки на доске, обсуждая идеи для прототипа сценария и карты пути клиента",
+  "trials-slider__title--prototyping": "Прототипирование",
+  "trials-slider__item--prototyping--prototype": "Дизайн и создание прототипа",
+  "trials-slider__item--prototyping--finalize": "Финализация договоренностей и рекрута целевой аудитории для тестирования",
+  "trials-slider__image--prototyping": "Женщина с ноутбуком, участвующая в процессе прототипирования",
+  "trials-slider__title--testing": "Тестирование",
+  "trials-slider__item--testing--real-users": "Тестирование прототипа с 5 реальными пользователями",
+  "trials-slider__item--testing--film-process": "Видео-фиксация процесса тестирования (доступна как в записи, так и в режиме реального времени)",
+  "trials-slider__image--testing": "Женщина и мужчина держат окно с сайтом, символизируя тестирование",
+  "trials-slider__title--analysis": "Анализ",
+  "trials-slider__item--analysis--process": "Обработка результатов тестирования",
+  "trials-slider__item--analysis--track-record": "Сборка итогов работы Недели 1",
+  "trials-slider__item--analysis--plan": "Планирование работы в рамках Недели 2",
+  "trials-slider__image--analysis": "Мужчина за столом с компьютером и диаграммой анализирует результаты тестов, составляет отчет о проделанной работе Недели 1 и планирует действия Недели 2",
+  "trials-slider__title--update": "Обновление гипотез",
+  "trials-slider__item--update--review": "Обзор и обсуждение тестов Недели 1",
+  "trials-slider__item--update--sprint": "Обновление задач и вопросов спринта",
+  "trials-slider__item--update--solutions": "При необходимости генерация и отбор новых продуктовых решений",
+  "trials-slider__image--update": "Человек держит круг с другим человеком на противоположной стороне. Обновление гипотез и обзор результатов Недели 1. Задачи спринта и обсуждение дополнительных решений для продукта",
+  "trials-slider__title--prototyping-2": "Создание прототипа 2.0",
+  "trials-slider__item--prototyping-2--prototype": "Дизайн и создание интерактивного прототипа высокой глубины проработки",
+  "trials-slider__item--prototyping-2--finalize": "Финализация договоренностей и рекрута целевой аудитории для тестирования в рамках Недели 2",
+  "trials-slider__image--prototyping-2": "Два человека держат бумагу с изображением электронного письма, представляя Прототип 2.0. Тестирование и набор пользователей для Недели 2 в процессе",
+  "trials-slider__title--testing-2": "Тестирование",
+  "trials-slider__item--testing-2--real-users": "Тестирование прототипа 2.0 с 5 реальными пользователями",
+  "trials-slider__item--testing-2--roadmap": "Создание дорожной карты развития продукта",
+  "trials-slider__image--testing-2": "Женщина сидит на стуле с ноутбуком, проводит пользовательское тестирование для прототипа 2.0 с участием 5 реальных пользователей, разрабатывает дорожную карту продукта",
+
+
+  "reward__title": "Что вы получаете",
+
+  "reward-details__title--prototype": "Дизайн-концепция и интерактивный прототип нового поколения",
+  "reward-details__description--prototype": "Созданный командой с опытом запуска продуктов для Сбербанка, MasterCard, МТС, Rambler, Delivery Club",
+  "reward-summary-detail__image--prototype": "Желтая и белая страница с четырьмя квадратами, демонстрирующая экспертность Focus в запуске продуктов для топ-клиентов",
+
+  "reward-details__title--hypotheses": "Тест продуктовых/бизнес гипотез и обратная связь от реальных пользователей",
+  "reward-summary-detail__image--hypotheses": "Сравнение бизнес-гипотез, включая отзывы пользователей",
+
+  "reward-details__title--experts": "Вовлечение топовых экспертов и дизайнеров",
+  "reward-details__description--experts": "Из России, Европы, США в решение вашей бизнес-задачи",
+  "reward-summary-detail__image--experts": "Профильная страница сайта, демонстрирующая сотрудничество с экспертами и дизайнерами из России, Европы и США",
+
+  "reward-details__title--presentation": "Презентация и материалы для совета директоров",
+  "reward-details__description--presentation": "Проработанные под «продажу» проекта внутри корпорации или привлечения инвестиций",
+  "reward-summary-detail__image--presentation": "Карта мира, подчеркивающая масштаб проекта для инвестиционного совета директоров",
+
+
+  "experience__title": "Как Focus помогает нашим клиентам?",
+
+  "experience-slider__title--task": "Задача",
+  "experience-slider__title--outcome": "Результат",
+
+  "experience-slider__logo--gazprom-neft": "Логотип газпром нефть",
+  "experience-slider__description--task--gazprom-neft": "Выявление и ответы на запросы участников процесса найма на работу в Google, использующих софт gHire, позволяющий просматривать весь путь кандидатов.",
+  "experience-slider__description--outcome--gazprom-neft": "Вместе с дизайн-командой Газпром Нефть мы синхронизировали видение по развитию проекта дизайн-системы компании, а также определили приоритеты среди целевых групп пользователей продукта. С помощью Focus был создан интерактивный прототип сайта проекта, а затем протестирован на 10 внутренних пользователях. Focus позволил вовлечь ключевых людей в компании, а также очень рано получить обратную связь по продукту от реальных пользователей.",
+  "experience-slider__image--gazprom-neft": "Две страницы с графиками символизирующие развитие дизайн-системы компании Газпром нефть",
+
+  "experience-slider__logo--NDA": "Логотип NDA",
+  "experience-slider__description--task--NDA": "Создание нового сервиса по самостоятельной активации SIM-карты для федерального телеком-оператора",
+  "experience-slider__description--outcome--NDA": "В рамках Focus мы за 2 недели проработали решение для удаленной самостоятельной активации SIM-карты, а также протестировали ряд продуктовых гипотез, связанных с получением положительной эмоции у пользователя от процесса активации, формой сбора обратной связи и вариантов удержания пользователя во время ожидания подтверждения активации.",
+  "experience-slider__image--NDA": "Разработка мобильного приложения: команда разработчиков работает над кодированием и дизайном мобильного приложения",
+
+  "experience-slider__logo--molnia": "Логотип молния",
+  "experience-slider__description--task--molnia": "Разработка платформы для подбора креативных команд за 24 часа",
+  "experience-slider__description--outcome--molnia": "Дизайн-спринт Focus помог команде проекта проработать интерактивный прототип платформы, протестировать ключевые продуктовые гипотезы и подготовить презентационные материалы для следующего раунда инвестиций. Важным эффектом от спринта стала фокусировка в отношении бизнес-модели платформы и приоритезация целевой аудиторий продукта.",
+  "experience-slider__image--molnia": "Процесс разработки платформы для подбора креативных команд за 24 часа",
+
+
+  "start__title--1.1": "Focus продукт компании",
+  "start__company-name": "Aventica",
+  "start__title--1.2": "",
+
+  "start__description": "Aventica — агентство, которое верит в совместную экспертизу и вовлекает клиента в создание итогового продукта. Наши исследования, рекомендации и идеи лежат в основе коммуникационных и маркетинговых стратегий, цифровых экосистем, новых продуктов и сервисов, часть из которых реализовали мы.",
+  "start__image": "Группа людей позирует для фото перед рампой для скейтборда. Focus от Aventica — создание продуктов через совместный опыт",
+
+
+  "clients__title": "Клиенты",
+
+  "clients-slider__image--sberbank": "Логотип Сбербанк",
+  "clients-slider__image--tele2": "Логотип Tele2",
+  "clients-slider__image--delivery-club": "Логотип Delivery club",
+  "clients-slider__image--mts": "Логотип МТС",
+  "clients-slider__image--okko": "Логотип Okko",
+  "clients-slider__image--rosbank": "Логотип Росбанк",
+  "clients-slider__image--sber-solutions": "Логотип СберРешения",
+  "clients-slider__image--rambler": "Логотип Рамблер",
+  "clients-slider__image--open": "Логотип Открытие",
+  "clients-slider__image--chelpipe": "Логотип Челябинский трубопрокатный завод",
+
+
+  "blog__title": "Последние публикации",
+  "blog__title-link": "блога",
+
+
+  "contact__title": "Напишите нам",
+  "contact__description": "И мы свяжемся с вами для того, чтобы рассказать больше о Focus и поможем запустить ваш продукт за 2 недели",
+  "form-contact__label--name": "Ваше имя",
+  "form-contact__placeholder--name": "Имя",
+  "form-contact__error--name": "Введите имя",
+  "form-contact__label--email": "Ваша электронная почта",
+  "form-contact__placeholder--email": "Почта",
+  "form-contact__error--email": "Введите почту",
+  "form-contact__button": "Отправить",
+  "form-contact__message--success": "Заявка успешно отправлена!",
+  "form-contact__message--failure": "При отправке заявки произошла ошибка"
+}

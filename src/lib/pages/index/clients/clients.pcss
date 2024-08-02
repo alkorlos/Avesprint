@@ -1,0 +1,26 @@
+.section-clients {
+	grid-column: layout;
+	margin-block-end: 143px;
+	@media (--desktop-1200) {
+		margin-block-end: 116px;
+	}
+	@media (--tablet) {
+		margin-block-end: 108px;
+	}
+}
+
+.clients-slider__container {
+	--swiper-wrapper-transition-timing-function: linear;
+}
+
+swiper-container::part(wrapper) {
+	align-items: center;
+}
+
+.clients-slider__slide {
+	inline-size: auto;
+}
+
+.clients-slider__image {
+	display: block;
+}

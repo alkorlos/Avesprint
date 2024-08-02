@@ -1,0 +1,46 @@
+.details {
+	padding-inline-start: 15px;
+}
+
+.details__summary {
+	position: relative;
+
+	display: grid;
+	grid-template-columns: var(--summary-content, max-content) 13px;
+	align-items: center;
+	column-gap: 15px;
+
+	cursor: pointer;
+	&::marker {
+		content: none;
+	}
+	&::before {
+		content: "";
+
+		position: absolute;
+		inset-block-start: 8px;
+		inset-inline-start: -15px;
+
+		inline-size: 5px;
+		block-size: 14px;
+
+		background-color: var(--color-background-brand-secondary);
+	}
+	&::after {
+		content: "";
+
+		inline-size: 13px;
+		block-size: 9px;
+
+		background: url("./assets/images/arrow-down.svg") no-repeat;
+
+		transition: transform 0.3s;
+	}
+}
+
+.details[open] .details__summary {
+	margin-block-end: 20px;
+	&::after {
+		transform: rotate(180deg);
+	}
+}

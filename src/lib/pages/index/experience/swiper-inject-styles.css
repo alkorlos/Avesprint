@@ -1,0 +1,11 @@
+.swiper-pagination-current {
+	margin-inline-end: 3px;
+
+	color: var(--color-text-slider-pagination-current);
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.swiper-pagination-total {
+	margin-inline-start: 1px;
+}

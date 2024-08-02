@@ -1,0 +1,27 @@
+@import "../../assets/styles/global/settings.custom-properties.pcss";
+
+@import "../../assets/styles/global/settings.fonts.pcss";
+
+@import "../../assets/styles/global/generic.shared.pcss";
+
+@import "../../assets/styles/global/trumps.utilities.pcss";
+
+.wrapper {
+	position: relative;
+
+	display: grid;
+	grid-template-rows: 1fr min-content;
+	grid-template-columns:
+		[layout-start]
+		minmax(var(--size-base-padding-inline), 1fr)
+		[content-start]
+		minmax(var(--size-layout-min-inline), var(--size-layout-max-inline))
+		[content-end]
+		minmax(var(--size-base-padding-inline), 1fr)
+		[layout-end];
+	min-height: 100dvh;
+
+	background-color: var(--color-default);
+
+	timeline-scope: var(--scopes);
+}

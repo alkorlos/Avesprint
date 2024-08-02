@@ -1,0 +1,7 @@
+# Folders
+build
+
+# Configs cjs
+.eslintrc.cjs
+stylelint.config.cjs
+stylelint.config.order.cjs

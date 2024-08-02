@@ -1,0 +1,25 @@
+{
+  "meta-description": "Запускаем и развиваем цифровые продукты и сервисы, проводим исследования, дизайн-спринты и проектируем интерфейсы",
+
+  "menu__button": "Переключение меню",
+
+  "logo": "К первой секции",
+
+  "button-contact__text": "Связаться",
+
+
+  "menu-main__link--challenge": "Вызов",
+  "menu-main__link--trials": "Испытания",
+  "menu-main__link--reward": "Награда",
+  "menu-main__link--experience": "Опыт",
+  "menu-main__link--start": "Начало",
+  "menu-main__link--blog": "Путь героя",
+
+
+  "footer__copyright": "© Focus by Aventica",
+
+
+  "slider__button--previous": "Предыдущий слайд",
+  "slider__button--next": "Следующий слайд",
+  "slider__pagination-bullet": "Перейти к слайду "
+}

@@ -1,0 +1,24 @@
+{
+  "meta-description": "We launch and develop digital products and services, conduct research, design sprints, and create interfaces",
+
+  "menu__button": "Toggle menu",
+
+  "logo": "To the first section",
+
+  "button-contact__text": "Contact us",
+
+
+  "menu-main__link--challenge": "Challenge",
+  "menu-main__link--trials": "Trials",
+  "menu-main__link--reward": "Reward",
+  "menu-main__link--experience": "Experience",
+  "menu-main__link--start": "Start",
+
+
+  "footer__copyright": "© Focus by Aventica",
+
+
+  "slider__button--previous": "Previous slide",
+  "slider__button--next": "Next slide",
+  "slider__pagination-bullet": "Go to slide "
+}

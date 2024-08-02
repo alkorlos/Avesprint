@@ -1,0 +1,16 @@
+.svg-icon {
+	display: block;
+	inline-size: var(--svg-icon-inline-size, auto);
+	block-size: var(--svg-icon-block-size, auto);
+
+	fill: var(--svg-icon-fill);
+
+	transform: rotate(var(--svg-icon-transform-rotate));
+}
+
+.svg-icon--desktop-hidden {
+	display: none;
+	@media (--tablet) {
+		display: block;
+	}
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html class="html" lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Focus</title>
+
+		<link href="%sveltekit.assets%/fonts/GolosText-Regular.woff2" type="font/woff2" rel="preload" as="font" crossorigin>
+		<style>
+			@font-face {
+				font-weight: 400;
+				font-family: "Golos Text";
+				font-style: normal;
+				font-display: swap;
+				src: url("%sveltekit.assets%/fonts/GolosText-Regular.woff2") format("woff2");
+			}
+		</style>
+
+		%sveltekit.head%
+		<link rel="shortcut icon" href="%sveltekit.assets%/favicon.ico" type="image/x-icon">
+	</head>
+
+	<body class="body" data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			%sveltekit.body%
+		</div>
+	</body>
+</html>

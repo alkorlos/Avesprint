@@ -1,0 +1,55 @@
+{
+  "name": "boilerplate-sveltekit",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alkorlos/boilerplate-sveltekit"
+  },
+  "author": {
+    "name": "Dmitry Statsenko",
+    "email": "alkor.sx@gmail.com"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "stylelint": "stylelint \"./src/**/*.{pcss,svelte}\" --quiet-deprecation-warnings",
+    "stylelint:fix": "stylelint \"./src/**/*.{pcss,svelte}\" --fix --quiet-deprecation-warnings",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint . --fix",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{pcss,svelte}": "npm run stylelint:fix",
+    "*.{js,svelte}": "npm run eslint:fix"
+  },
+  "dependencies": {
+    "@csstools/postcss-global-data": "^2.1.1",
+    "@sveltejs/adapter-netlify": "^4.3.1",
+    "@sveltejs/kit": "^2.5.17",
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "fast-xml-parser": "^4.4.0",
+    "postcss": "^8.4.38",
+    "postcss-preset-env": "^9.5.14",
+    "svelte": "^4.2.18",
+    "svelte-i18n": "^4.0.0",
+    "svelte-preprocess": "^6.0.1",
+    "swiper": "^11.1.4",
+    "typograf": "^7.4.1",
+    "vite": "^5.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-no-autofix": "^1.2.3",
+    "eslint-plugin-svelte": "^2.40.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "nodemailer": "^6.9.14",
+    "stylelint": "^15.11.0",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-order": "^6.0.4"
+  }
+}

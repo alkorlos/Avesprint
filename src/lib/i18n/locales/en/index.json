@@ -1,0 +1,175 @@
+{
+  "hero__caption": "From idea to product test in just 2 weeks",
+
+  "hero-slider__title--period": "From idea to product test in just 2 weeks",
+  "hero-slider__title--practical": "Practical approach to product launch",
+  "hero-slider__title--prototype": "An interactive next-generation prototype",
+  "hero-slider__title--products": "Launch of high-demand products",
+  "hero-slider__title--saving": "Saving time and resources",
+  "hero-slider__title--result": "Your product will work!",
+
+  "hero__image": "A hand points to a paper, while the other hand holds a light bulb, symbolizing the generation of ideas",
+
+  "hero__link": "To the next block",
+
+
+  "challenge__title": "The Focus approach is the ideal solution if within 2 weeks you need to:",
+
+  "challenge-details__title--launch": "Launch a project",
+  "challenge-details__description--launch": "Develop a project from an abstract idea to a specific launch execution strategy",
+  "challenge-summary-detail__image--launch": "Yellow shoe with gears, symbolizing innovative design for a project merging fashion and technology",
+
+  "challenge-details__title--hypotheses": "Test several hypotheses",
+  "challenge-details__description--hypotheses": "Test several product hypotheses and get tangible feedback from real users",
+  "challenge-summary-detail__image--hypotheses": "Clipboard with star icon symbolizing testing product hypotheses for tangible feedback from real users",
+
+  "challenge-details__title--stakeholders": "Engage key stakeholders",
+  "challenge-details__description--stakeholders": "Sync your team’s vision and involve stakeholders in project execution",
+  "challenge-summary-detail__image--stakeholders": "A yellow person with a left-pointing arrow, symbolizing teamwork and stakeholder involvement in project execution",
+
+  "challenge-details__title--sell": "‘Sell’ your idea internally",
+  "challenge-details__description--sell": "Develop, wrap-up and ‘sell’ your idea inside the company",
+  "challenge-summary-detail__image--sell": "An open box with a light bulb inside, symbolizing the idea development process within the company",
+
+  "challenge-details__title--support": "Access support from external experts",
+  "challenge-details__description--support": "Get an unbiased look at your task and use external experts’ knowledge in your team’s work",
+  "challenge-summary-detail__image--support": "An owl wearing a graduation cap and pencil, symbolizing unbiased expertise and external knowledge in team collaboration",
+
+  "challenge-details__title--roadmap": "Deliver a roadmap and prototype",
+  "challenge-details__description--roadmap": "Deliver a design concept and an interactive product prototype",
+  "challenge-summary-detail__image--roadmap": "Phone with person and phone with list, showcasing design concept and interactive product prototype",
+
+
+  "trials__title": "How does Focus work?",
+  "trials__skip": "Skip",
+
+  "trials-gallery__week--1": "Week 1",
+  "trials-gallery__day--monday--full": "Monday",
+  "trials-gallery__day--monday--shortcut": "Mo",
+  "trials-gallery__day--tuesday--full": "Tuesday",
+  "trials-gallery__day--tuesday--shortcut": "Tu",
+  "trials-gallery__day--wednesday--full": "Wednesday",
+  "trials-gallery__day--wednesday--shortcut": "We",
+  "trials-gallery__day--thursday--full": "Thursday",
+  "trials-gallery__day--thursday--shortcut": "Th",
+  "trials-gallery__day--friday--full": "Friday",
+  "trials-gallery__day--friday--shortcut": "Fr",
+  "trials-gallery__week--2": "Week 2",
+  "trials-gallery__day--tuesday-thursday--full": "Tuesday — Thursday",
+  "trials-gallery__day--tuesday-thursday--shortcut": "Tu We Th",
+
+  "trials-slider__title--idea": "Idea Search",
+  "trials-slider__item--idea--study": "We study the subject matter of the project together with internal and external experts",
+  "trials-slider__item--idea--solutions": "We generate a high number of focused project solutions",
+  "trials-slider__item--idea--hypotheses": "We set a 2-year project goal, and formulate and prioritize product hypotheses",
+  "trials-slider__image--idea": "A man and woman collaborate on a computer, brainstorming project ideas with internal and external experts",
+  "trials-slider__title--storyboard": "Storyboard",
+  "trials-slider__item--storyboard--prototype": "We select the best ideas and, based on those, devise a prototype outline for further testing",
+  "trials-slider__item--storyboard--scripts": "We build a customer journey map and user scripts",
+  "trials-slider__item--storyboard--mockups": "We work on mockups of the future prototype",
+  "trials-slider__image--storyboard": "Two individuals reviewing notes and check boxes on a board, brainstorming ideas for a storyboard prototype and customer journey map",
+  "trials-slider__title--prototyping": "Prototyping",
+  "trials-slider__item--prototyping--prototype": "We design and create the prototype",
+  "trials-slider__item--prototyping--finalize": "We finalize agreements and recruit a target audience for user tests",
+  "trials-slider__image--prototyping": "Woman with laptop, involved in prototyping process",
+  "trials-slider__title--testing": "Testing",
+  "trials-slider__item--testing--real-users": "We test the prototype on 5 real users",
+  "trials-slider__item--testing--film-process": "We film the test process (accessible both live and via recording)",
+  "trials-slider__image--testing": "A woman and a man holding a window with a website, symbolizing testing",
+  "trials-slider__title--analysis": "Analysis",
+  "trials-slider__item--analysis--process": "We process the test results",
+  "trials-slider__item--analysis--track-record": "We write up the track record for Week 1",
+  "trials-slider__item--analysis--plan": "We plan Week 2",
+  "trials-slider__image--analysis": "A man at a desk with a computer and a chart, analyzing test results, writing up Week 1's track record, and planning for Week 2",
+  "trials-slider__title--update": "Hypothesis Update",
+  "trials-slider__item--update--review": "Review and discuss the outcomes of Week 1",
+  "trials-slider__item--update--sprint": "We update sprint tasks and questions",
+  "trials-slider__item--update--solutions": "We brainstorm and select additional product solutions, if needed",
+  "trials-slider__image--update": "A person holding a circle with another person on the opposite side. Hypothesis update and review of Week 1 outcomes. Sprint tasks and brainstorming for additional product solutions",
+  "trials-slider__title--prototyping-2": "Prototype 2.0",
+  "trials-slider__item--prototyping-2--prototype": "We design and create an interactive prototype with a high degree of elaboration",
+  "trials-slider__item--prototyping-2--finalize": "We finalize agreements and recruit a target audience for Week 2 tests",
+  "trials-slider__image--prototyping-2": "Two individuals holding a paper with an email picture, representing Prototype 2.0. Testing and recruitment for Week 2 underway",
+  "trials-slider__title--testing-2": "Testing",
+  "trials-slider__item--testing-2--real-users": "We test prototype 2.0 on 5 real users",
+  "trials-slider__item--testing-2--roadmap": "We put together a product roadmap",
+  "trials-slider__image--testing-2": "A woman sitting in a chair with a laptop, conducting user testing for prototype 2.0 with 5 real users, creating a product roadmap",
+
+
+  "reward__title": "What you get",
+
+  "reward-details__title--prototype": "A design concept and an interactive next-generation prototype",
+  "reward-details__description--prototype": "created by the team that has launched products for Sberbank, MasterCard, MTS, Rambler, and Delivery Club",
+  "reward-summary-detail__image--prototype": "Yellow and white page with four squares, showcasing Focus's expertise in launching products for top clients",
+
+  "reward-details__title--hypotheses": "Product and business hypothesis testing and feedback from real users",
+  "reward-summary-detail__image--hypotheses": "Comparison business hypothesis, including user feedback",
+
+  "reward-details__title--experts": "Collaboration with industry-best experts and designers",
+  "reward-details__description--experts": "from Russia, Europe, and the USA",
+  "reward-summary-detail__image--experts": "Profile page of a website, showcasing collaboration with experts and designers from Russia, Europe, and the USA",
+
+  "reward-details__title--presentation": "A presentation and write-ups",
+  "reward-details__description--presentation": "for the executive board targeted at internal ‘selling’ of the project to secure investment",
+  "reward-summary-detail__image--presentation": "World map, highlighting project scope for executive board investment",
+
+
+  "experience__title": "How does Focus help its clients?",
+
+  "experience-slider__title--task": "Task",
+  "experience-slider__title--outcome": "Outcome",
+
+  "experience-slider__logo--gazprom-neft": "Logo gazprom neft",
+  "experience-slider__description--task--gazprom-neft": "To build a website for a new design system",
+  "experience-slider__description--outcome--gazprom-neft": "In collaboration with Gazprom Neft’s design team, we synced up a project development vision for developing the company’s new design system. We also prioritized the product’s user target groups. An interactive prototype of the project’s website was built and tested on 10 internal users with the help of the Focus team. We made it possible to engage key top managers of the company and to provide early feedback from real product users.",
+  "experience-slider__image--gazprom-neft": "Two pages with charts symbolizing the development of Gazprom Neft's design system",
+
+  "experience-slider__logo--NDA": "Logo NDA",
+  "experience-slider__description--task--NDA": "To create a new service for a remote do-it-yourself SIM-card activation for a federal telecom operator",
+  "experience-slider__description--outcome--NDA": "Using the Focus framework approach, within 2 weeks we devised a solution for remote do-it-yourself SIM-card activation. We tested a number of product hypotheses related to eliciting a positive emotional response in users during the activation process, ways of gathering user feedback, and ways of sustaining user retention during the activation confirmation wait time.",
+  "experience-slider__image--NDA": "Mobile app development: A team of developers working on coding and designing a mobile application",
+
+  "experience-slider__logo--molnia": "Logo molnia",
+  "experience-slider__description--task--molnia": "To develop a platform for hiring creative teams within 24 hours",
+  "experience-slider__description--outcome--molnia": "The Focus design sprint approach helped the client’s team to work out an interactive prototype of the platform, test key product hypotheses and prepare presentation materials for the next investment round. The sprint had a considerable impact in terms of developing the platform’s business model and prioritizing the product’s target audiences.",
+  "experience-slider__image--molnia": "Platform development process for assembling creative teams within 24 hours",
+
+
+  "start__title--1.1": "Focus is a product of the",
+  "start__company-name": "Aventica",
+  "start__title--1.2": "company",
+
+  "start__description": "Aventica is an agency that prioritizes shared expertise, and we engage our clients in the product building process. Our innovative research, recommendations and ideas provide a solid foundation for communication and marketing strategies, digital ecosystems, and new products and services.",
+  "start__image": "A group of people posing for a photo in front of a skate ramp. Focus by Aventica - building products through shared expertise",
+
+
+  "clients__title": "Clients",
+
+  "clients-slider__image--sberbank": "Logo Sberbank",
+  "clients-slider__image--tele2": "Logo Tele2",
+  "clients-slider__image--delivery-club": "Logo Delivery club",
+  "clients-slider__image--mts": "Logo MTS",
+  "clients-slider__image--okko": "Logo Okko",
+  "clients-slider__image--rosbank": "Logo Rosbank",
+  "clients-slider__image--sber-solutions": "Logo SberSolutions",
+  "clients-slider__image--rambler": "Logo Rambler",
+  "clients-slider__image--open": "Logo Open",
+  "clients-slider__image--chelpipe": "Logo Chelyabinsk Pipe Rolling Plant",
+
+
+  "blog__title": "Latest posts",
+  "blog__title-link": "blog",
+
+
+  "contact__title": "Contact us",
+  "contact__description": "Don’t hesitate to reach out if you want to find out more about what Focus can do for you",
+  "form-contact__label--name": "Your name",
+  "form-contact__placeholder--name": "Name",
+  "form-contact__error--name": "Enter name",
+  "form-contact__label--email": "Your e-mail",
+  "form-contact__placeholder--email": "E-mail",
+  "form-contact__error--email": "Enter e-mail",
+  "form-contact__button": "Send",
+  "form-contact__message--success": "Successfully sent!",
+  "form-contact__message--failure": "An error occurred while submitting the application"
+}

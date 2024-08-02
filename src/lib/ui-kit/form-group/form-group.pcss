@@ -1,0 +1,9 @@
+.form-group--horizontal {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)) 200px;
+	column-gap: 16px;
+	@media (--phone) {
+		grid-template-columns: 1fr;
+		row-gap: 11px;
+	}
+}

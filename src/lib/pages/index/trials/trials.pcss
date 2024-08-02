@@ -1,0 +1,531 @@
+.section-trials {
+	display: grid;
+	grid-template-columns: subgrid;
+	grid-column: layout;
+	block-size: 500dvh; /* Скорость прокрутки */
+
+	background-color: var(--color-background-secondary);
+
+	view-timeline-name: var(--is);
+	view-timeline-axis: block;
+	@media (--tablet) {
+		block-size: auto;
+		padding-block: 120px;
+	}
+}
+
+.section-trials__root {
+	position: sticky;
+	inset-block-start: 0;
+
+	display: grid;
+	grid-template-columns: subgrid;
+	grid-column: layout;
+	align-content: center;
+	inline-size: 100%;
+	block-size: 100dvh;
+	@media (--tablet) {
+		position: relative;
+		inline-size: auto;
+		block-size: auto;
+	}
+}
+
+.trials__header {
+	display: flex;
+	grid-column: content;
+	justify-content: space-between;
+	align-items: center;
+	margin-block-end: 37px;
+	@media (--phone) {
+		column-gap: 20px;
+	}
+	@media (--phone-576) {
+		display: block;
+	}
+}
+
+.trials__title {
+	margin-block: 0;
+
+	color: var(--color-text-trials-title);
+	font-weight: 400;
+	font-size: 40px;
+	text-wrap: balance;
+	@media (--tablet) {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	@media (--phone-576) {
+		margin-block-end: 15px;
+	}
+}
+
+.trials__skip {
+	display: block;
+	width: max-content;
+	padding-block: 14px;
+	padding-inline: 30px;
+
+	color: var(--color-text-trials-link);
+	font-size: 14px;
+	text-decoration: none;
+
+	border: 1px solid var(--color-stroke-trials-link);
+
+	transition: color 0.3s, background-color 0.3s, border 0.3s;
+	&:hover {
+		@media (--hover-fine) {
+			color: var(--color-text-trials-link--hover);
+			background-color: var(--color-background-interactable--hover);
+			border: 1px solid var(--color-stroke-interactable--hover);
+		}
+	}
+}
+
+.trials-gallery {
+	grid-column: content;
+	container: trials-gallery / inline-size;
+	@media (--tablet) {
+		display: grid;
+		grid-template-columns: 47px 1fr;
+		align-items: start;
+		column-gap: 15px;
+	}
+}
+
+.trials-gallery__weeks {
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	margin-block-end: 34px;
+
+	border-block-end: 1px solid var(--color-stroke-contrast-016);
+	@media (--tablet) {
+		position: sticky;
+		inset-block-start: calc(68px + 38px);
+
+		display: block;
+		margin-block-end: 0;
+
+		border-block-end: none;
+		border-inline-end: 1px solid var(--color-stroke-contrast-016);
+	}
+}
+
+.trials-gallery__week {
+	display: grid;
+	grid-template-columns: 1fr max-content;
+	margin-block-end: -1px;
+	@media (--tablet) {
+		display: block;
+		margin-block-end: 0;
+		margin-inline-end: -1px;
+	}
+}
+
+.trials-gallery__week-name {
+	position: relative;
+
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	margin-block: 0;
+	padding-block: 17px;
+	padding-inline-end: 45px;
+
+	color: var(--color-text-tab);
+	font-weight: 600;
+	font-size: 12px;
+	letter-spacing: 1.28px;
+	text-transform: uppercase;
+
+	border-block-end: 3px solid transparent;
+	opacity: 0.54;
+
+	transition: opacity 0.3s, border-block-end 0.3s;
+	&::after {
+		content: "";
+
+		position: absolute;
+		inset-block-start: 50%;
+		inset-inline-end: 22px;
+
+		inline-size: 1px;
+		block-size: 14px;
+
+		background-color: var(--color-background-tab-after);
+
+		transform: translateY(-50%);
+
+		transition: background-color 0.3s;
+	}
+	@media (--desktop-1200) {
+		padding-inline-end: 25px;
+		&::after {
+			inset-inline-end: 12px;
+		}
+	}
+	@media (--desktop-1100) {
+		padding-inline-end: 15px;
+		font-size: 11px;
+		&::after {
+			inset-inline-end: 7px;
+		}
+	}
+	@media (--tablet) {
+		display: none;
+	}
+}
+
+/* Если неделя активна -> имя недели становится активным */
+.trials-gallery__week--current .trials-gallery__week-name {
+	border-block-end: 3px solid var(--color-stroke-contrast);
+	opacity: 1;
+	&::after {
+		background-color: var(--color-background-tab-after-current);
+	}
+}
+
+/* Если в соседних неделях есть активная неделя -> имя недели становится активным */
+.trials-gallery__week:has(~ .trials-gallery__week--current) .trials-gallery__week-name {
+	border-block-end: 3px solid var(--color-stroke-contrast);
+	opacity: 1;
+	&::after {
+		background-color: var(--color-background-tab-after-current);
+	}
+}
+
+/* Если в неделях нет дочернего активного дня недели -> имя первой недели становится активным */
+/* stylelint-disable-next-line selector-max-compound-selectors */
+.trials-gallery__weeks:not(:has(.trials-gallery__week--current)) .trials-gallery__week:first-child .trials-gallery__week-name {
+	border-block-end: 3px solid var(--color-stroke-contrast);
+	opacity: 1;
+	/* stylelint-disable-next-line selector-max-compound-selectors */
+	&::after {
+		background-color: var(--color-background-tab-after-current);
+	}
+}
+
+.trials-gallery__controls {
+	display: flex;
+	@media (--tablet) {
+		display: block;
+	}
+}
+
+.trials-gallery__week:first-child .trials-gallery__controls {
+	@media (--tablet) {
+		position: relative;
+		&::after {
+			content: "";
+
+			position: absolute;
+			inset-block-end: 0;
+			/* Вычитание от 50% — центрирование
+			5px — отступ слева, 15px — отступ справа = разница 10px
+			3px — ширина рамки
+			Деление на 2 — так как вычитание от 50%, нужна половина значения. От 100% вычитается полное значение */
+			inset-inline-start: calc(50% - ((10px + 3px) / 2));
+
+			width: 20px;
+			block-size: 1px;
+
+			background-color: var(--color-background-brand-tertiary);
+
+			transform: translateX(-50%);
+		}
+	}
+}
+
+.trials-gallery__control {
+	padding-block: 17px;
+	border-block-end: 3px solid transparent;
+	transition: border-block-end 0.3s;
+	&:not(:first-child) {
+		/* Для правильного отображения подчеркивания текущего и прошедших дней, не только для расстояния между блоками */
+		padding-inline-start: 19px;
+	}
+	@media (--desktop-1200) {
+		&:not(:first-child) {
+			padding-inline-start: 8px;
+		}
+	}
+	@media (--desktop-1100) {
+		&:not(:first-child) {
+			padding-inline-start: 5px;
+		}
+	}
+	@media (--tablet) {
+		display: flex;
+		justify-content: center;
+		padding-block: 13px;
+		padding-inline: 5px 15px;
+
+		border-block-end: none;
+		border-inline-end: 3px solid transparent;
+
+		transition: border-inline-end 0.3s;
+	}
+}
+
+/* Если день недели активен -> имя дня недели подчеркивается */
+.trials-gallery__control--current {
+	border-block-end: 3px solid var(--color-stroke-contrast);
+	@media (--tablet) {
+		border-block-end: none;
+		border-inline-end: 3px solid var(--color-stroke-contrast);
+	}
+}
+
+/* Если в соседних именах дней недели есть активное имя дня недели -> имена дней недели подчеркиваются */
+.trials-gallery__control:has(~ .trials-gallery__control--current) {
+	border-block-end: 3px solid var(--color-stroke-contrast);
+	@media (--tablet) {
+		border-block-end: none;
+		border-inline-end: 3px solid var(--color-stroke-contrast);
+	}
+}
+
+/* Если в соседних неделях есть активная неделя -> имена дней недели подчеркиваются */
+.trials-gallery__week:has(~ .trials-gallery__week--current) .trials-gallery__control {
+	border-block-end: 3px solid var(--color-stroke-contrast);
+	@media (--tablet) {
+		border-block-end: none;
+		border-inline-end: 3px solid var(--color-stroke-contrast);
+	}
+}
+
+.trials-gallery__week:first-child .trials-gallery__control {
+	@media (--tablet) {
+		&:first-child {
+			padding-block-start: 0;
+			/* stylelint-disable-next-line selector-max-compound-selectors */
+			& .trials-gallery__day {
+				margin-block-start: -7px;
+			}
+		}
+		&:last-child {
+			padding-block-end: 34px;
+		}
+	}
+}
+
+.trials-gallery__week:last-child .trials-gallery__control {
+	@media (--tablet) {
+		&:first-child {
+			padding-block-start: 34px;
+		}
+		&:last-child {
+			padding-block-end: 0;
+			/* stylelint-disable-next-line selector-max-compound-selectors */
+			& .trials-gallery__day {
+				margin-block-end: -7px;
+			}
+		}
+	}
+}
+
+/* Если в неделях нет дочернего активного дня недели -> имя первого дня неделя в первой неделе становится активным */
+/* stylelint-disable-next-line selector-max-compound-selectors */
+.trials-gallery__weeks:not(:has(.trials-gallery__control--current)) .trials-gallery__week:first-child .trials-gallery__control:first-child {
+	border-block-end: 3px solid var(--color-stroke-contrast);
+	@media (--tablet) {
+		border-block-end: none;
+		border-inline-end: 3px solid var(--color-stroke-contrast);
+	}
+}
+
+.trials-gallery__day {
+	margin-block: 0;
+
+	color: var(--color-text-tab);
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 30px;
+	letter-spacing: 1.28px;
+	text-transform: uppercase;
+
+	opacity: 0.54;
+
+	transition: opacity 0.3s;
+	@media (--desktop-1100) {
+		font-size: 11px;
+	}
+	@media (--tablet) {
+		font-weight: 600;
+		font-size: 14px;
+		letter-spacing: 1.49px;
+	}
+}
+
+/* У активных имен дней недели меняется цвет */
+.trials-gallery__control--current .trials-gallery__day {
+	opacity: 1;
+}
+
+/* Если в соседних именах дней недели есть активное имя дня недели -> имена дней недели становятся активными */
+.trials-gallery__control:has(~ .trials-gallery__control--current) .trials-gallery__day {
+	opacity: 1;
+}
+
+/* Если в соседних неделях есть активная неделя -> имена дней недели становятся активными */
+.trials-gallery__week:has(~ .trials-gallery__week--current) .trials-gallery__day {
+	opacity: 1;
+}
+
+/* Если в неделях нет дочернего активного дня недели -> имя первого дня недели в первой неделе становится активным */
+/* stylelint-disable-next-line selector-max-compound-selectors */
+.trials-gallery__weeks:not(:has(.trials-gallery__week--current)) .trials-gallery__week:first-child .trials-gallery__control:first-child .trials-gallery__day {
+	opacity: 1;
+}
+
+.trials-gallery__day--desktop {
+	@media (--tablet) {
+		display: none;
+	}
+}
+
+.trials-gallery__day--mobile {
+	display: none;
+	@media (--tablet) {
+		display: block;
+	}
+}
+
+.trials-slider {
+	--trials-slider-column-gap: 450px;
+
+	display: grid;
+	grid-auto-columns: 1000px;
+	grid-auto-flow: column;
+	column-gap: var(--trials-slider-column-gap);
+	/* Ширина слайдов 1000px, отступы между слайдами --trials-slider-column-gap, у последнего слайда нет отступа */
+	inline-size: calc((8 * (1000px + var(--trials-slider-column-gap))) - var(--trials-slider-column-gap));
+
+	will-change: transform;
+
+	animation: linear move-horizontally forwards;
+	animation-timeline: var(--is);
+	animation-range: contain 0% contain 100%;
+	@media (--desktop-1300) {
+		--trials-slider-column-gap: 220px;
+	}
+	@media (--tablet) {
+		grid-auto-columns: auto;
+		grid-auto-flow: row;
+		row-gap: 121px;
+		inline-size: auto;
+
+		animation: none;
+	}
+}
+
+@keyframes move-horizontally {
+	to {
+		transform: translateX(calc(-100% + 100cqw));
+	}
+}
+
+.trials-slider__week-name {
+	display: none;
+	@media (--tablet) {
+		display: block;
+		margin-block: -3px 39px;
+
+		color: var(--color-text-trials-gallery-week-name-mobile);
+		font-weight: 600;
+		font-size: 12px;
+		letter-spacing: 1.28px;
+		text-transform: uppercase;
+	}
+}
+
+.trials-slider__slide {
+	display: grid;
+	grid-template-columns: 1fr max-content;
+	column-gap: 100px;
+	@media (--desktop-1300) {
+		column-gap: 50px;
+	}
+	@media (--tablet) {
+		display: block;
+	}
+}
+
+.trials-slider__content {
+	padding-block-start: 32px;
+	@media (--tablet) {
+		padding-block-start: 0;
+	}
+}
+
+.trials-slider__title {
+	margin-block: 0 14px;
+
+	color: var(--color-text-tertiary);
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 1.25;
+	@media (--tablet) {
+		margin-block-end: 11px;
+
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 40px;
+	}
+	@media (--phone-576) {
+		font-size: 23px;
+		line-height: 28px;
+	}
+}
+
+.trials-slider__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.trials-slider__item {
+	position: relative;
+
+	margin-block-end: 20px;
+	padding-inline-start: 20px;
+
+	color: var(--color-text-tertiary);
+	font-size: 24px;
+	line-height: 1.5;
+	&::before {
+		content: "";
+
+		position: absolute;
+		inset-block-start: 9px;
+		inset-inline-start: 0;
+
+		inline-size: 3px;
+		block-size: 17px;
+
+		background-color: var(--color-background-brand-tertiary);
+	}
+	@media (--desktop-1100) {
+		font-size: 20px;
+	}
+	@media (--tablet) {
+		margin-block-end: 12px;
+		padding-inline-start: 0;
+
+		font-size: 18px;
+		line-height: 28px;
+		&::before {
+			display: none;
+		}
+	}
+}
+
+.trials-slider__image {
+	display: block;
+	max-inline-size: 100%;
+	block-size: auto;
+	@media (--tablet) {
+		inline-size: 430px;
+	}
+}
